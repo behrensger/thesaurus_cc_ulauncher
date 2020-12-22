@@ -1,0 +1,18 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "openthesaurus.de",
+  "description": "Enter a term after the keyword 'thes' and press Enter. Ulauncher then calls up a standard browser and searches for the term on openthesaurus.de.",
+  "developer_name": "A. Behrens",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "thes_id_search",
+      "type": "keyword",
+      "name": "lookup",
+      "default_value": "thes"
+    }
+  ]
+}
