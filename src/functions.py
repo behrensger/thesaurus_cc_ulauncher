@@ -2,11 +2,12 @@ import json
 from urllib.request import urlopen, Request
 from urllib.parse import urlencode
 
-
 SEARCH_OPENTHESAURUS_URL = "https://www.openthesaurus.de/synonyme/search?format=application/json&"
+SEARCH_OPENTHESAURUS_BROWSER_URL = "https://www.openthesaurus.de/synonyme/"
+
 
 def generate_url(search):
-    return SEARCH_OPENTHESAURUS_URL + urlencode({"s": search})
+    return SEARCH_OPENTHESAURUS_BROWSER_URL + search
 
 
 def generate_synTerms(word):
