@@ -1,0 +1,1 @@
+# thesaurus_cc_ulauncher
