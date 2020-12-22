@@ -1,4 +1,4 @@
-# Ulauncher Extension for Dict.cc
+# Ulauncher Extension for openthesaurus.de
 
 
 ![Screenshot](images/screenshot.png)
@@ -8,7 +8,7 @@
 Then open Ulauncher preferences window > extensions > add extension and paste the following url:
 
 ```
-https://github.com/behrensger/dict_cc_ulauncher
+https://github.com/behrensger/thesaurus_cc_ulauncher
 ```
 
 ## Credits
